@@ -1,0 +1,50 @@
+<!-- This is template made using handlebars. It displays the minimum cost,corresponding website-name and
+ corresponding link for each product -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>current prices</title>
+	<style type="text/css">
+	    body  {
+              
+               background-color: #cccccc;
+               }
+        table {
+              border-collapse: collapse;
+
+              }
+
+        table, th, td {
+              border: 1px solid black;
+              }
+              th, td {
+              padding: 15px;
+             text-align: left;
+             }
+     </style>
+</head>
+<body >
+
+	<center><h1><p> For each product its lowest price and the link to corresponding site </p></h1>
+
+    <table style="width:800px">
+    	 <tr>
+            <th>Product Name</th>
+            <th>Website Name</th> 
+            <th>Minimum Cost</th>
+            <th>Link to the product</th>
+         </tr>
+    {{#each result}}
+     <tr>
+     <td>{{this.[0]}}</td>                                  <!--Product Name -->
+      <td>{{this.[2]}}</td>                                 <!--website-name-->
+     <td>{{this.[3]}}</td>                                   <!--minimum cost -->
+    <td> <a href='{{this.[4]}}' > Go to the site </a></td>   <!--link to the product-->
+     </tr>
+    
+    {{/each}}
+    </table>
+    </center>
+	
+</body>
+</html>

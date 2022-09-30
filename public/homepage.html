@@ -1,0 +1,122 @@
+<!--this is the home page that contains the link to all different pages-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border-style: solid;
+  border-color: white;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 14px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+#heading{
+   color: white
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#AddNewProduct {background-color: green;}
+#LowestPrice {background-color: cyan  ;}
+#DeleteProducts {background-color: orange;}
+#Update{background-color: green;}
+</style>
+</head>
+<body bgcolor="#555">
+  <center>
+    <div id="heading">
+ <h1> THE DEAL FINDER </h1>
+  <p>Save time and money</p>
+</div>
+</center>
+<button id="defaultOpen"class="tablink" onclick="openPage('Home', this, 'red')">HOME</button>
+<button class="tablink" onclick="openPage('AddNewProduct', this, 'green')" >Add New Product</button>
+<button class="tablink" onclick="openPage('LowestPrice', this, 'cyan')">Lowest Price List</button>
+<button class="tablink" onclick="openPage('DeleteProducts', this, 'orange')">Delete Products</button>
+<button class="tablink" onclick="openPage('UpdatePrices', this, 'green')">Update Prices</button>
+
+
+<div id="Home" class="tabcontent">
+  <h3 style="color: black">About</h3>
+  <p>The Deal Finder keeps you informed about the minimum price of the products you wish to buy. <br><br>
+    The product may be available on various e-commerce sites. It keeps a check on the products <br><br>prices and lets you know the minimum price for each product</p>
+
+  <h3 style="color: black">How to get started</h3>
+  <p> Just go to the add new product tab,enter the required details.And you are done.The price of that<br><br> product will be tracked and minimum of all of the prices for the product will be sent as notification <br><br>along with the correspoding link. You can have many products and for each product you can add <br><br>many sites.
+</div>
+
+<div id="AddNewProduct" class="tabcontent">
+  <h3>Add a new product here</h3>
+  <form id="iop" method="POST" action="/savedata">
+    Product Name:<br>
+
+    <input type="text" id="" value="" name="pdct" required><br><br>
+    URL for this product:<br>
+    <input type="text" id=""  name="aurl" required><br><br>
+       <br><br>
+    <input type="submit"  value="Add the product"name="CLICK ME">
+    
+  </form>
+</div>
+
+<div id="LowestPrice" class="tabcontent">
+  <h2 style="color: black">Check Current Lowest prices of Items</h2>
+  <h3><a href="/currentprices" > check current prices of selected items </a></h3>
+</div>
+<div id="DeleteProducts" class="tabcontent">
+  <h2>Delete the products of which you don't want to get notifications</h2>
+ <h3> <p><a href="selecttodelete" style="color: white">click here to select the items to be delete</a></p></h3>
+</div>
+<div id="UpdatePrices" class="tabcontent">
+  <h2>Prices were automatically updated few minutes ago</h2>
+  <h3>Check for updates</h3>
+  <p><a href="/updateprices" style="color: white">Click to Update Prices</a></p>
+</div>
+
+
+
+<script>
+  //this function gets called when user clicks on any of the tabs 
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none"; // it hides the entire element of all tabs
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = ""; // setting background ground colour of all tabs to transparent
+  }
+  document.getElementById(pageName).style.display = "block"; // display the tab which was clicked
+  elmnt.style.backgroundColor =color; //set background colour of the tab which was clicked
+}
+document.getElementById("defaultOpen").click(); // default tab to be opened 
+</script>
+   
+</body>
+</html> 

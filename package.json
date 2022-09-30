@@ -1,0 +1,26 @@
+{
+  "name": "deal_finder",
+  "version": "1.0.0",
+  "description": "automatically fetches the current prices of your products on various e-commerce sites and sends notification about minimum price of each product",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "child_process": "^1.0.2",
+    "circular-json": "^0.5.9",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.0.4",
+    "mongodb": "^3.2.7",
+    "node-notifier": "^5.4.0",
+    "open": "^6.4.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "piyush kumar",
+  "license": "ISC"
+}

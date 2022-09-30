@@ -1,0 +1,28 @@
+<!--This is a template using handlebars. Used when users wants to delete some products. It receives the 
+ list of products from app.get('/selecttodelete'). Users can select the products to be deleted and then the list of selected products is passed to app.post('/deleteproducts')-->
+ 
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title> DELETE PRODUCTS</title>
+</head>
+<body bgcolor="#BEBEBE">
+	<br><br><br><br>
+    <center>
+    <h2>Select products to be deleted</h2>
+        <form method="POST" action="/deleteproducts"> 
+                {{#each result}}
+    
+                <input type="checkbox" id="" value='{{this}}' name="ask">{{this}}<br><br>
+
+                {{/each}}
+    
+
+                <input  type="submit" value="Delete Selected Products">
+
+        </form>
+    </center>
+ 
+</body>
+</html>

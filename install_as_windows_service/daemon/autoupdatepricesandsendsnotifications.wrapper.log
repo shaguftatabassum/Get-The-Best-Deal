@@ -1,0 +1,98 @@
+2019-07-08 21:57:20 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\DELL\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\DELL\Desktop\deal_finder\install_as_windows_service\childprocess.js --log "Auto Update Prices and sends notifications wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-07-08 21:57:20 - Started 12964
+2019-07-08 22:14:50 - Stopping autoupdatepricesandsendsnotifications.exe
+2019-07-08 22:14:50 - ProcessKill 12964
+2019-07-08 22:14:51 - Found child process: 12356 Name: conhost.exe
+2019-07-08 22:14:51 - Found child process: 9948 Name: node.exe
+2019-07-08 22:14:51 - Stopping process 12356
+2019-07-08 22:14:51 - Send SIGINT 12356
+2019-07-08 22:14:51 - SIGINT to 12356 failed - Killing as fallback
+2019-07-08 22:14:51 - Found child process: 2360 Name: cmd.exe
+2019-07-08 22:14:51 - Found child process: 8580 Name: conhost.exe
+2019-07-08 22:14:51 - Found child process: 13176 Name: node.exe
+2019-07-08 22:14:51 - Stopping process 8580
+2019-07-08 22:14:51 - Send SIGINT 8580
+2019-07-08 22:14:51 - SIGINT to 8580 failed - Killing as fallback
+2019-07-08 22:14:51 - Found child process: 11132 Name: SnoreToast.exe
+2019-07-08 22:14:51 - Found child process: 10060 Name: SnoreToast.exe
+2019-07-08 22:14:51 - Found child process: 10920 Name: SnoreToast.exe
+2019-07-08 22:14:51 - Found child process: 5892 Name: SnoreToast.exe
+2019-07-08 22:14:51 - Found child process: 7832 Name: SnoreToast.exe
+2019-07-08 22:14:51 - Stopping process 11132
+2019-07-08 22:14:51 - Send SIGINT 11132
+2019-07-08 22:14:51 - SIGINT to 11132 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 10060
+2019-07-08 22:14:51 - Send SIGINT 10060
+2019-07-08 22:14:51 - SIGINT to 10060 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 10920
+2019-07-08 22:14:51 - Send SIGINT 10920
+2019-07-08 22:14:51 - SIGINT to 10920 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 5892
+2019-07-08 22:14:51 - Send SIGINT 5892
+2019-07-08 22:14:51 - SIGINT to 5892 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 7832
+2019-07-08 22:14:51 - Send SIGINT 7832
+2019-07-08 22:14:51 - SIGINT to 7832 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 13176
+2019-07-08 22:14:51 - Send SIGINT 13176
+2019-07-08 22:14:51 - SIGINT to 13176 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 2360
+2019-07-08 22:14:51 - Send SIGINT 2360
+2019-07-08 22:14:51 - SIGINT to 2360 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 9948
+2019-07-08 22:14:51 - Send SIGINT 9948
+2019-07-08 22:14:51 - SIGINT to 9948 failed - Killing as fallback
+2019-07-08 22:14:51 - Stopping process 12964
+2019-07-08 22:14:51 - Send SIGINT 12964
+2019-07-08 22:14:51 - SIGINT to 12964 failed - Killing as fallback
+2019-07-08 22:14:51 - Finished autoupdatepricesandsendsnotifications.exe
+2019-07-08 22:27:16 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\DELL\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\DELL\Desktop\deal_finder\install_as_windows_service\childprocess.js --log "Auto Update Prices and sends notifications wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-07-08 22:27:16 - Started 2548
+2019-07-08 22:29:14 - Stopping autoupdatepricesandsendsnotifications.exe
+2019-07-08 22:29:14 - ProcessKill 2548
+2019-07-08 22:29:14 - Found child process: 10312 Name: conhost.exe
+2019-07-08 22:29:14 - Found child process: 10288 Name: node.exe
+2019-07-08 22:29:14 - Stopping process 10312
+2019-07-08 22:29:14 - Send SIGINT 10312
+2019-07-08 22:29:14 - SIGINT to 10312 failed - Killing as fallback
+2019-07-08 22:29:14 - Found child process: 10804 Name: cmd.exe
+2019-07-08 22:29:14 - Found child process: 11112 Name: conhost.exe
+2019-07-08 22:29:14 - Found child process: 4696 Name: node.exe
+2019-07-08 22:29:14 - Stopping process 11112
+2019-07-08 22:29:14 - Send SIGINT 11112
+2019-07-08 22:29:14 - SIGINT to 11112 failed - Killing as fallback
+2019-07-08 22:29:14 - Found child process: 3056 Name: SnoreToast.exe
+2019-07-08 22:29:14 - Found child process: 7820 Name: SnoreToast.exe
+2019-07-08 22:29:14 - Found child process: 7404 Name: SnoreToast.exe
+2019-07-08 22:29:14 - Found child process: 12856 Name: SnoreToast.exe
+2019-07-08 22:29:14 - Found child process: 12476 Name: SnoreToast.exe
+2019-07-08 22:29:14 - Stopping process 3056
+2019-07-08 22:29:14 - Send SIGINT 3056
+2019-07-08 22:29:14 - SIGINT to 3056 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 7820
+2019-07-08 22:29:15 - Send SIGINT 7820
+2019-07-08 22:29:15 - SIGINT to 7820 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 7404
+2019-07-08 22:29:15 - Send SIGINT 7404
+2019-07-08 22:29:15 - SIGINT to 7404 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 12856
+2019-07-08 22:29:15 - Send SIGINT 12856
+2019-07-08 22:29:15 - SIGINT to 12856 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 12476
+2019-07-08 22:29:15 - Send SIGINT 12476
+2019-07-08 22:29:15 - SIGINT to 12476 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 4696
+2019-07-08 22:29:15 - Send SIGINT 4696
+2019-07-08 22:29:15 - SIGINT to 4696 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 10804
+2019-07-08 22:29:15 - Send SIGINT 10804
+2019-07-08 22:29:15 - SIGINT to 10804 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 10288
+2019-07-08 22:29:15 - Send SIGINT 10288
+2019-07-08 22:29:15 - SIGINT to 10288 failed - Killing as fallback
+2019-07-08 22:29:15 - Stopping process 2548
+2019-07-08 22:29:15 - Send SIGINT 2548
+2019-07-08 22:29:15 - SIGINT to 2548 failed - Killing as fallback
+2019-07-08 22:29:15 - Finished autoupdatepricesandsendsnotifications.exe
+2019-07-08 22:29:17 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\DELL\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\DELL\Desktop\deal_finder\install_as_windows_service\childprocess.js --log "Auto Update Prices and sends notifications wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-07-08 22:29:17 - Started 10244
